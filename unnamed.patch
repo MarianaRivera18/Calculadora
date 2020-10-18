@@ -1,0 +1,182 @@
+Index: app/src/main/res/layout/activity_main.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- app/src/main/res/layout/activity_main.xml	(revision 59715ef555ea4d3112d51a907a3033591b5c19f0)
++++ app/src/main/res/layout/activity_main.xml	(date 1602970554072)
+@@ -19,17 +19,32 @@
+ 
+ 
+ 
+-        <LinearLayout
+-            android:layout_width="match_parent"
+-            android:layout_height="match_parent"
+-            android:orientation="horizontal">
++    <LinearLayout
++        android:layout_width="match_parent"
++        android:layout_height="match_parent"
++        android:orientation="horizontal">
+ 
+-            <Button
+-                android:background="@color/gris"
+-                android:layout_marginTop="150dp"
++        <Button
++            android:background="@color/gris"
++            android:layout_marginTop="150dp"
++            android:textSize="40dp"
++            android:layout_width="100dp"
++            android:layout_height="105dp"
++            android:orientation="vertical"
++            android:text="AC" />
++    </LinearLayout>
++
++        <LinearLayout
++            android:layout_width="match_parent"
++            android:layout_height="match_parent"
++            android:orientation="horizontal">
++
++            <Button
++                android:background="@color/gris"
++                android:layout_marginTop="256dp"
+                 android:textSize="40dp"
+                 android:layout_width="100dp"
+-                android:layout_height="145dp"
++                android:layout_height="105dp"
+                 android:orientation="vertical"
+                 android:text="7" />
+             <Button
+@@ -37,14 +52,14 @@
+                 android:layout_marginTop="150dp"
+                 android:textSize="40dp"
+                 android:layout_width="100dp"
+-                android:layout_height="145dp"
++                android:layout_height="105dp"
+                 android:orientation="vertical"
+                 android:text="8" />
+             <Button
+                 android:background="@color/gris"
+                 android:layout_marginTop="150dp"
+                 android:layout_width="100dp"
+-                android:layout_height="145dp"
++                android:layout_height="105dp"
+                 android:textSize="40dp"
+                 android:orientation="vertical"
+                 android:text="9" />
+@@ -52,7 +67,7 @@
+             <Button
+ 
+                 android:layout_width="112dp"
+-                android:layout_height="145dp"
++                android:layout_height="105dp"
+                 android:layout_marginTop="150dp"
+                 android:background="@color/colorAccent"
+                 android:orientation="vertical"
+@@ -72,7 +87,7 @@
+             android:background="@color/gris"
+             android:layout_marginTop="288dp"
+             android:layout_width="100dp"
+-            android:layout_height="145dp"
++            android:layout_height="105dp"
+             android:orientation="vertical"
+             android:textSize="40dp"
+             android:layout_gravity="center|top"
+@@ -81,7 +96,7 @@
+             android:background="@color/gris"
+             android:layout_marginTop="288dp"
+             android:layout_width="100dp"
+-            android:layout_height="145dp"
++            android:layout_height="105dp"
+             android:orientation="vertical"
+             android:textSize="40dp"
+             android:layout_gravity="center|top"
+@@ -90,7 +105,7 @@
+             android:background="@color/gris"
+             android:layout_marginTop="288dp"
+             android:layout_width="100dp"
+-            android:layout_height="145dp"
++            android:layout_height="105dp"
+             android:orientation="vertical"
+             android:textSize="40dp"
+             android:layout_gravity="center|top"
+@@ -98,7 +113,7 @@
+ 
+         <Button
+             android:layout_width="110dp"
+-            android:layout_height="145dp"
++            android:layout_height="105dp"
+             android:layout_gravity="center|top"
+             android:layout_marginTop="288dp"
+             android:background="@color/colorAccent"
+@@ -117,7 +132,7 @@
+         android:background="@color/gris"
+         android:layout_marginTop="425dp"
+         android:layout_width="100dp"
+-        android:layout_height="145dp"
++        android:layout_height="105dp"
+         android:orientation="vertical"
+         android:textSize="40dp"
+         android:layout_gravity="center|top"
+@@ -126,7 +141,7 @@
+             android:background="@color/gris"
+             android:layout_marginTop="425dp"
+             android:layout_width="100dp"
+-            android:layout_height="145dp"
++            android:layout_height="105dp"
+             android:orientation="vertical"
+             android:textSize="40dp"
+             android:layout_gravity="center|top"
+@@ -135,7 +150,7 @@
+             android:background="@color/gris"
+             android:layout_marginTop="425dp"
+             android:layout_width="100dp"
+-            android:layout_height="145dp"
++            android:layout_height="105dp"
+             android:orientation="vertical"
+             android:textSize="40dp"
+             android:layout_gravity="center|top"
+@@ -143,9 +158,9 @@
+ 
+         <Button
+             android:layout_width="110dp"
+-            android:layout_height="145dp"
++            android:layout_height="105dp"
+             android:layout_gravity="center|top"
+-            android:layout_marginTop="410dp"
++            android:layout_marginTop="425dp"
+             android:background="@color/colorAccent"
+             android:orientation="vertical"
+             android:text="+"
+@@ -159,7 +174,7 @@
+ 
+         <Button
+             android:layout_width="300dp"
+-            android:layout_height="176dp"
++            android:layout_height="105dp"
+             android:layout_gravity="center|top"
+             android:layout_marginTop="555dp"
+             android:background="@color/gris"
+@@ -169,7 +184,7 @@
+ 
+         <Button
+             android:layout_width="113dp"
+-            android:layout_height="183dp"
++            android:layout_height="105dp"
+             android:layout_gravity="center|top"
+             android:layout_marginTop="550dp"
+             android:background="@color/colorAccent"
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/vcs.xml	(date 1602731964735)
++++ .idea/vcs.xml	(date 1602731964735)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="" vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file
